@@ -696,3 +696,1183 @@
 2026-01-29 09:49:44,556 - Knowledge - INFO - [WEBSOCKET] Sent: Type=progress_update, Size: 268, Duration: 0ms
 2026-01-29 09:49:44,724 - Knowledge - INFO - Saving knowledge to Redis...
 2026-01-29 09:49:45,033 - Knowledge - INFO - Knowledge saved to Redis successfully
+2026-01-29 11:26:37,354 - Knowledge - INFO - Created shared MongoDB connection pool
+2026-01-29 11:26:37,665 - Knowledge - INFO - Starting Knowledge Graph processing with 20 threads
+2026-01-29 11:26:37,831 - Knowledge - INFO - Initial configuration: chunk_size=65536, max_cache_size=500
+2026-01-29 11:26:37,990 - Knowledge - INFO - Knowledge Graph concurrency configuration: workers=20, max_batch_size=10, max_concurrent_llm_calls=50
+2026-01-29 18:28:15,890 - Knowledge - INFO - Created shared MongoDB connection pool
+2026-01-29 18:28:16,218 - Knowledge - INFO - Starting Knowledge Graph processing with 20 threads
+2026-01-29 18:28:16,412 - Knowledge - INFO - Initial configuration: chunk_size=65536, max_cache_size=500
+2026-01-29 18:28:16,597 - Knowledge - INFO - Knowledge Graph concurrency configuration: workers=20, max_batch_size=10, max_concurrent_llm_calls=50
+2026-01-29 18:28:17,530 - Knowledge - INFO - 🔍 _load_persisted_knowledge called - checking for Redis optimization
+2026-01-29 18:28:17,724 - Knowledge - WARNING - ❌ load_from_redis method not found - Redis support not attached
+2026-01-29 18:28:17,907 - Knowledge - INFO - load persisted knowledge: begin
+2026-01-29 18:28:19,359 - Knowledge - INFO - Persisted knowledge files in /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/.knowledge have been renamed to use .json
+2026-01-29 18:28:19,547 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:19,754 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:20,040 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:20,230 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:20,433 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/controller/braintree.js
+2026-01-29 18:28:20,685 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2026-01-29 18:28:21,848 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: server/controller/braintree.js, Duration: 989ms
+2026-01-29 18:28:22,022 - Knowledge - INFO - persist search terms embedding for server/controller/braintree.js
+2026-01-29 18:28:22,195 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/controller/braintree.js
+2026-01-29 18:28:22,385 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:22,570 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:22,783 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:22,973 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:23,158 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/SearchFilter.js
+2026-01-29 18:28:23,446 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 94ms
+2026-01-29 18:28:24,437 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/dashboardUser/SearchFilter.js, Duration: 800ms
+2026-01-29 18:28:24,588 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/dashboardUser/SearchFilter.js
+2026-01-29 18:28:24,781 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/SearchFilter.js
+2026-01-29 18:28:24,933 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:25,145 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:25,379 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:25,552 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:25,769 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/ProductByCategory.js
+2026-01-29 18:28:26,026 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 87ms
+2026-01-29 18:28:26,441 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/home/ProductByCategory.js, Duration: 223ms
+2026-01-29 18:28:26,618 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/home/ProductByCategory.js
+2026-01-29 18:28:26,791 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/ProductByCategory.js
+2026-01-29 18:28:26,971 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:27,139 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:27,395 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:27,566 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:27,719 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/dashboardAdmin/Customize.js
+2026-01-29 18:28:27,953 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2026-01-29 18:28:28,353 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/dashboardAdmin/Customize.js, Duration: 248ms
+2026-01-29 18:28:28,584 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/dashboardAdmin/Customize.js
+2026-01-29 18:28:28,753 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/dashboardAdmin/Customize.js
+2026-01-29 18:28:28,907 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:29,058 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:29,282 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:29,463 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:29,643 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/OrderSuccessMessage.js
+2026-01-29 18:28:29,916 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 89ms
+2026-01-29 18:28:30,353 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/home/OrderSuccessMessage.js, Duration: 199ms
+2026-01-29 18:28:30,554 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/home/OrderSuccessMessage.js
+2026-01-29 18:28:30,749 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/OrderSuccessMessage.js
+2026-01-29 18:28:30,923 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:31,088 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:31,353 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:31,511 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:31,675 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/config/uploadFolderCreateScript.js
+2026-01-29 18:28:31,952 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 97ms
+2026-01-29 18:28:32,370 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: server/config/uploadFolderCreateScript.js, Duration: 260ms
+2026-01-29 18:28:32,527 - Knowledge - INFO - persist search terms embedding for server/config/uploadFolderCreateScript.js
+2026-01-29 18:28:32,729 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/config/uploadFolderCreateScript.js
+2026-01-29 18:28:32,891 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:33,078 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:33,321 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:33,533 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:33,719 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/middleware/auth.js
+2026-01-29 18:28:34,023 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 93ms
+2026-01-29 18:28:34,653 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: server/middleware/auth.js, Duration: 457ms
+2026-01-29 18:28:34,839 - Knowledge - INFO - persist search terms embedding for server/middleware/auth.js
+2026-01-29 18:28:35,002 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/middleware/auth.js
+2026-01-29 18:28:35,192 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:35,349 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:35,578 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:35,774 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:35,944 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/DashboardUserContext.js
+2026-01-29 18:28:36,269 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 90ms
+2026-01-29 18:28:36,642 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/dashboardUser/DashboardUserContext.js, Duration: 189ms
+2026-01-29 18:28:36,815 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/dashboardUser/DashboardUserContext.js
+2026-01-29 18:28:37,033 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/DashboardUserContext.js
+2026-01-29 18:28:37,247 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:37,432 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:37,655 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:37,844 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:38,025 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/ProductDetailsSection.js
+2026-01-29 18:28:38,308 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 104ms
+2026-01-29 18:28:38,814 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/productDetails/ProductDetailsSection.js, Duration: 316ms
+2026-01-29 18:28:39,007 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/productDetails/ProductDetailsSection.js
+2026-01-29 18:28:39,201 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/ProductDetailsSection.js
+2026-01-29 18:28:39,406 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:39,563 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:39,795 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:40,002 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:40,189 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/ProductDetailsContext.js
+2026-01-29 18:28:40,503 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 93ms
+2026-01-29 18:28:41,007 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/productDetails/ProductDetailsContext.js, Duration: 343ms
+2026-01-29 18:28:41,173 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/productDetails/ProductDetailsContext.js
+2026-01-29 18:28:41,372 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/ProductDetailsContext.js
+2026-01-29 18:28:41,537 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:41,708 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:41,952 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:42,135 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:42,297 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/FetchApi.js
+2026-01-29 18:28:42,585 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 90ms
+2026-01-29 18:28:43,001 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/dashboardUser/FetchApi.js, Duration: 235ms
+2026-01-29 18:28:43,178 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/dashboardUser/FetchApi.js
+2026-01-29 18:28:43,348 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/FetchApi.js
+2026-01-29 18:28:43,495 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:43,702 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:43,962 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:44,136 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:44,312 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/products/index.js
+2026-01-29 18:28:44,575 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 89ms
+2026-01-29 18:28:44,977 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/products/index.js, Duration: 249ms
+2026-01-29 18:28:45,172 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/products/index.js
+2026-01-29 18:28:45,314 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/products/index.js
+2026-01-29 18:28:45,518 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:45,690 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:45,955 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:46,162 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:46,316 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/routes/categories.js
+2026-01-29 18:28:46,607 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 89ms
+2026-01-29 18:28:47,005 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: server/routes/categories.js, Duration: 217ms
+2026-01-29 18:28:47,225 - Knowledge - INFO - persist search terms embedding for server/routes/categories.js
+2026-01-29 18:28:47,418 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/routes/categories.js
+2026-01-29 18:28:47,591 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:47,773 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:48,078 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:48,230 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:48,398 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/auth/ProtectedRoute.js
+2026-01-29 18:28:48,644 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 87ms
+2026-01-29 18:28:49,034 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/auth/ProtectedRoute.js, Duration: 243ms
+2026-01-29 18:28:49,219 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/auth/ProtectedRoute.js
+2026-01-29 18:28:49,392 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/auth/ProtectedRoute.js
+2026-01-29 18:28:49,614 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:49,817 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:50,112 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:50,294 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:50,498 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/controller/products.js
+2026-01-29 18:28:50,777 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 83ms
+2026-01-29 18:28:51,289 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: server/controller/products.js, Duration: 328ms
+2026-01-29 18:28:51,453 - Knowledge - INFO - persist search terms embedding for server/controller/products.js
+2026-01-29 18:28:51,613 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/controller/products.js
+2026-01-29 18:28:51,811 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:52,009 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:52,234 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:52,393 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:52,541 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/auth/Login.js
+2026-01-29 18:28:52,786 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 89ms
+2026-01-29 18:28:53,184 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/auth/Login.js, Duration: 224ms
+2026-01-29 18:28:53,368 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/auth/Login.js
+2026-01-29 18:28:53,537 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/auth/Login.js
+2026-01-29 18:28:53,690 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:53,865 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:54,128 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:54,298 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:54,482 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/models/products.js
+2026-01-29 18:28:54,758 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 90ms
+2026-01-29 18:28:55,166 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: server/models/products.js, Duration: 256ms
+2026-01-29 18:28:55,380 - Knowledge - INFO - persist search terms embedding for server/models/products.js
+2026-01-29 18:28:55,565 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/models/products.js
+2026-01-29 18:28:55,767 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:55,968 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:56,283 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:56,504 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:56,698 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/index.js
+2026-01-29 18:28:56,999 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 87ms
+2026-01-29 18:28:57,660 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/index.js, Duration: 504ms
+2026-01-29 18:28:57,832 - Knowledge - INFO - persist search terms embedding for client/src/index.js
+2026-01-29 18:28:57,983 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/index.js
+2026-01-29 18:28:58,139 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:58,358 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:58,610 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:28:58,808 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:28:58,967 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/wishlist/FetchApi.js
+2026-01-29 18:28:59,241 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 92ms
+2026-01-29 18:28:59,742 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/wishlist/FetchApi.js, Duration: 290ms
+2026-01-29 18:28:59,937 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/wishlist/FetchApi.js
+2026-01-29 18:29:00,105 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/wishlist/FetchApi.js
+2026-01-29 18:29:00,308 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:00,473 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:00,739 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:00,890 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:01,099 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/FetchApi.js
+2026-01-29 18:29:01,327 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2026-01-29 18:29:01,837 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/productDetails/FetchApi.js, Duration: 331ms
+2026-01-29 18:29:02,027 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/productDetails/FetchApi.js
+2026-01-29 18:29:02,229 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/FetchApi.js
+2026-01-29 18:29:02,400 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:02,595 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:02,882 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:03,040 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:03,238 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/partials/AdminFooter.js
+2026-01-29 18:29:03,549 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 87ms
+2026-01-29 18:29:04,154 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/partials/AdminFooter.js, Duration: 436ms
+2026-01-29 18:29:04,348 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/partials/AdminFooter.js
+2026-01-29 18:29:04,531 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/partials/AdminFooter.js
+2026-01-29 18:29:04,693 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:04,863 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:05,088 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:05,288 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:05,514 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/routes/users.js
+2026-01-29 18:29:05,790 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 85ms
+2026-01-29 18:29:06,390 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: server/routes/users.js, Duration: 394ms
+2026-01-29 18:29:06,583 - Knowledge - INFO - persist search terms embedding for server/routes/users.js
+2026-01-29 18:29:06,760 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/routes/users.js
+2026-01-29 18:29:06,953 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:07,134 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:07,367 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:07,559 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:07,724 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/products/EditProductModal.js
+2026-01-29 18:29:07,994 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 93ms
+2026-01-29 18:29:08,474 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/products/EditProductModal.js, Duration: 329ms
+2026-01-29 18:29:08,658 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/products/EditProductModal.js
+2026-01-29 18:29:08,848 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/products/EditProductModal.js
+2026-01-29 18:29:09,004 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:09,209 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:09,436 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:09,668 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:09,864 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/products/FetchApi.js
+2026-01-29 18:29:10,141 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 87ms
+2026-01-29 18:29:10,541 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/products/FetchApi.js, Duration: 216ms
+2026-01-29 18:29:10,767 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/products/FetchApi.js
+2026-01-29 18:29:10,974 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/products/FetchApi.js
+2026-01-29 18:29:11,168 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:11,353 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:11,586 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:11,770 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:11,912 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/partials/CartModal.js
+2026-01-29 18:29:12,155 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 86ms
+2026-01-29 18:29:12,608 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/partials/CartModal.js, Duration: 277ms
+2026-01-29 18:29:12,772 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/partials/CartModal.js
+2026-01-29 18:29:12,930 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/partials/CartModal.js
+2026-01-29 18:29:13,125 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:13,289 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:13,531 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:13,694 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:13,913 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/UserProfile.js
+2026-01-29 18:29:14,201 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 93ms
+2026-01-29 18:29:14,583 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/dashboardUser/UserProfile.js, Duration: 186ms
+2026-01-29 18:29:14,777 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/dashboardUser/UserProfile.js
+2026-01-29 18:29:14,942 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/UserProfile.js
+2026-01-29 18:29:15,101 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:15,264 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:15,488 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:15,678 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:15,879 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/HomeContext.js
+2026-01-29 18:29:16,181 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 83ms
+2026-01-29 18:29:18,084 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/home/HomeContext.js, Duration: 1702ms
+2026-01-29 18:29:18,253 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/home/HomeContext.js
+2026-01-29 18:29:18,451 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/HomeContext.js
+2026-01-29 18:29:18,653 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:18,844 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:19,136 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:19,338 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:19,486 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/routes/auth.js
+2026-01-29 18:29:19,806 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 102ms
+2026-01-29 18:29:20,220 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: server/routes/auth.js, Duration: 229ms
+2026-01-29 18:29:20,413 - Knowledge - INFO - persist search terms embedding for server/routes/auth.js
+2026-01-29 18:29:20,572 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/routes/auth.js
+2026-01-29 18:29:20,734 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:20,906 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:21,135 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:21,314 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:21,498 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/public/style.css
+2026-01-29 18:29:21,783 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 91ms
+2026-01-29 18:29:22,272 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/public/style.css, Duration: 289ms
+2026-01-29 18:29:22,442 - Knowledge - INFO - persist search terms embedding for client/public/style.css
+2026-01-29 18:29:22,607 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/public/style.css
+2026-01-29 18:29:22,785 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:22,956 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:23,204 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:23,381 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:23,573 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/wishlist/index.js
+2026-01-29 18:29:23,845 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 85ms
+2026-01-29 18:29:24,212 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/wishlist/index.js, Duration: 202ms
+2026-01-29 18:29:24,399 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/wishlist/index.js
+2026-01-29 18:29:24,557 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/wishlist/index.js
+2026-01-29 18:29:24,713 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:24,905 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:25,162 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:25,321 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:25,498 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/index.js
+2026-01-29 18:29:25,774 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 109ms
+2026-01-29 18:29:26,189 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/productDetails/index.js, Duration: 208ms
+2026-01-29 18:29:26,331 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/productDetails/index.js
+2026-01-29 18:29:26,527 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/index.js
+2026-01-29 18:29:26,703 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:26,853 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:27,142 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:27,337 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:27,537 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/config/db.js
+2026-01-29 18:29:27,792 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 90ms
+2026-01-29 18:29:28,341 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: server/config/db.js, Duration: 366ms
+2026-01-29 18:29:28,522 - Knowledge - INFO - persist search terms embedding for server/config/db.js
+2026-01-29 18:29:28,704 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/config/db.js
+2026-01-29 18:29:28,913 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:29,125 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:29,366 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:29,535 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:29,726 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/orders/OrderContext.js
+2026-01-29 18:29:30,058 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 95ms
+2026-01-29 18:29:30,418 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/orders/OrderContext.js, Duration: 220ms
+2026-01-29 18:29:30,631 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/orders/OrderContext.js
+2026-01-29 18:29:30,815 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/orders/OrderContext.js
+2026-01-29 18:29:30,991 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:31,158 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:31,373 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:31,551 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:31,713 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/partials/Footer.js
+2026-01-29 18:29:31,968 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 82ms
+2026-01-29 18:29:32,364 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/partials/Footer.js, Duration: 225ms
+2026-01-29 18:29:32,544 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/partials/Footer.js
+2026-01-29 18:29:32,698 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/partials/Footer.js
+2026-01-29 18:29:32,867 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:33,055 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:33,305 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:33,478 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:33,636 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/order/CheckoutPage.js
+2026-01-29 18:29:33,918 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 83ms
+2026-01-29 18:29:34,322 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/order/CheckoutPage.js, Duration: 239ms
+2026-01-29 18:29:34,480 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/order/CheckoutPage.js
+2026-01-29 18:29:34,666 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/order/CheckoutPage.js
+2026-01-29 18:29:34,863 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:35,056 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:35,293 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:35,502 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:35,673 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/orders/OrderMenu.js
+2026-01-29 18:29:35,951 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2026-01-29 18:29:37,130 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/orders/OrderMenu.js, Duration: 1013ms
+2026-01-29 18:29:37,293 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/orders/OrderMenu.js
+2026-01-29 18:29:37,462 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/orders/OrderMenu.js
+2026-01-29 18:29:37,677 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:37,838 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:38,095 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:38,312 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:38,509 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/config/function.js
+2026-01-29 18:29:38,783 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 87ms
+2026-01-29 18:29:39,213 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: server/config/function.js, Duration: 238ms
+2026-01-29 18:29:39,378 - Knowledge - INFO - persist search terms embedding for server/config/function.js
+2026-01-29 18:29:39,531 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/config/function.js
+2026-01-29 18:29:39,685 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:39,866 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:40,158 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:40,341 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:40,499 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/Mixins.js
+2026-01-29 18:29:40,740 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2026-01-29 18:29:41,133 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/productDetails/Mixins.js, Duration: 207ms
+2026-01-29 18:29:41,306 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/productDetails/Mixins.js
+2026-01-29 18:29:41,459 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/Mixins.js
+2026-01-29 18:29:41,688 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:41,846 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:42,123 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:42,270 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:42,454 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/index.js
+2026-01-29 18:29:42,736 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 97ms
+2026-01-29 18:29:43,225 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/dashboardUser/index.js, Duration: 266ms
+2026-01-29 18:29:43,411 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/dashboardUser/index.js
+2026-01-29 18:29:43,578 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/index.js
+2026-01-29 18:29:43,813 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:44,003 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:44,252 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:44,393 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:44,574 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/orders/Actions.js
+2026-01-29 18:29:44,825 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 86ms
+2026-01-29 18:29:45,244 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/orders/Actions.js, Duration: 249ms
+2026-01-29 18:29:45,440 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/orders/Actions.js
+2026-01-29 18:29:45,602 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/orders/Actions.js
+2026-01-29 18:29:45,753 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:45,917 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:46,141 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:46,338 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:46,507 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/Layout.js
+2026-01-29 18:29:46,786 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 101ms
+2026-01-29 18:29:47,194 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/dashboardUser/Layout.js, Duration: 258ms
+2026-01-29 18:29:47,430 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/dashboardUser/Layout.js
+2026-01-29 18:29:47,655 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/Layout.js
+2026-01-29 18:29:47,868 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:48,020 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:48,327 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:48,528 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:48,704 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/auth/CartProtectedRoute.js
+2026-01-29 18:29:48,987 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 89ms
+2026-01-29 18:29:49,434 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/auth/CartProtectedRoute.js, Duration: 256ms
+2026-01-29 18:29:49,592 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/auth/CartProtectedRoute.js
+2026-01-29 18:29:49,755 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/auth/CartProtectedRoute.js
+2026-01-29 18:29:49,916 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:50,088 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:50,306 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:50,482 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:50,728 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/UserOrders.js
+2026-01-29 18:29:50,988 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 91ms
+2026-01-29 18:29:51,409 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/dashboardUser/UserOrders.js, Duration: 259ms
+2026-01-29 18:29:51,593 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/dashboardUser/UserOrders.js
+2026-01-29 18:29:51,798 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/UserOrders.js
+2026-01-29 18:29:51,992 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:52,195 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:52,417 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:52,612 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:52,806 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/Action.js
+2026-01-29 18:29:53,047 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2026-01-29 18:29:53,750 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/dashboardUser/Action.js, Duration: 496ms
+2026-01-29 18:29:53,922 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/dashboardUser/Action.js
+2026-01-29 18:29:54,130 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/Action.js
+2026-01-29 18:29:54,304 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:54,497 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:54,773 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:54,914 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:55,075 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/config/keys.js
+2026-01-29 18:29:55,374 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 82ms
+2026-01-29 18:29:55,958 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: server/config/keys.js, Duration: 377ms
+2026-01-29 18:29:56,115 - Knowledge - INFO - persist search terms embedding for server/config/keys.js
+2026-01-29 18:29:56,322 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/config/keys.js
+2026-01-29 18:29:56,515 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:56,705 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:56,986 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:57,190 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:57,370 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/Action.js
+2026-01-29 18:29:57,646 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 83ms
+2026-01-29 18:29:58,148 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/productDetails/Action.js, Duration: 277ms
+2026-01-29 18:29:58,331 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/productDetails/Action.js
+2026-01-29 18:29:58,512 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/Action.js
+2026-01-29 18:29:58,659 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:58,826 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:59,078 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:29:59,237 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:29:59,423 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/package.json
+2026-01-29 18:29:59,700 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 93ms
+2026-01-29 18:30:00,178 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: server/package.json, Duration: 259ms
+2026-01-29 18:30:00,341 - Knowledge - INFO - persist search terms embedding for server/package.json
+2026-01-29 18:30:00,510 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/package.json
+2026-01-29 18:30:00,664 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:00,844 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:01,086 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:01,252 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:01,418 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/wishlist/SingleWishProduct.js
+2026-01-29 18:30:01,723 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 112ms
+2026-01-29 18:30:02,073 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/wishlist/SingleWishProduct.js, Duration: 189ms
+2026-01-29 18:30:02,293 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/wishlist/SingleWishProduct.js
+2026-01-29 18:30:02,456 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/wishlist/SingleWishProduct.js
+2026-01-29 18:30:02,640 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:02,800 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:03,031 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:03,201 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:03,399 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/layout/index.js
+2026-01-29 18:30:03,696 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 89ms
+2026-01-29 18:30:04,159 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/layout/index.js, Duration: 267ms
+2026-01-29 18:30:04,316 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/layout/index.js
+2026-01-29 18:30:04,482 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/layout/index.js
+2026-01-29 18:30:04,682 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:04,821 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:05,108 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:05,254 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:05,402 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/app.js
+2026-01-29 18:30:05,648 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 83ms
+2026-01-29 18:30:06,078 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: server/app.js, Duration: 255ms
+2026-01-29 18:30:06,270 - Knowledge - INFO - persist search terms embedding for server/app.js
+2026-01-29 18:30:06,450 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/app.js
+2026-01-29 18:30:06,596 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:06,788 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:07,040 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:07,259 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:07,442 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/ProductCategoryDropdown.js
+2026-01-29 18:30:07,736 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 100ms
+2026-01-29 18:30:08,186 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/home/ProductCategoryDropdown.js, Duration: 232ms
+2026-01-29 18:30:08,384 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/home/ProductCategoryDropdown.js
+2026-01-29 18:30:08,547 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/ProductCategoryDropdown.js
+2026-01-29 18:30:08,714 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:08,883 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:09,148 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:09,321 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:09,524 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/AllReviews.js
+2026-01-29 18:30:09,813 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 92ms
+2026-01-29 18:30:10,289 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/productDetails/AllReviews.js, Duration: 282ms
+2026-01-29 18:30:10,495 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/productDetails/AllReviews.js
+2026-01-29 18:30:10,690 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/AllReviews.js
+2026-01-29 18:30:10,893 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:12,569 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:12,807 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:12,986 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:13,138 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/dashboardAdmin/DashboardContext.js
+2026-01-29 18:30:13,395 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 86ms
+2026-01-29 18:30:13,725 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/dashboardAdmin/DashboardContext.js, Duration: 181ms
+2026-01-29 18:30:13,953 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/dashboardAdmin/DashboardContext.js
+2026-01-29 18:30:14,118 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/dashboardAdmin/DashboardContext.js
+2026-01-29 18:30:14,294 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:14,488 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:14,723 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:14,914 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:15,121 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/controller/categories.js
+2026-01-29 18:30:15,394 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 87ms
+2026-01-29 18:30:15,805 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: server/controller/categories.js, Duration: 228ms
+2026-01-29 18:30:15,990 - Knowledge - INFO - persist search terms embedding for server/controller/categories.js
+2026-01-29 18:30:16,171 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/controller/categories.js
+2026-01-29 18:30:16,347 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:16,497 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:16,794 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:16,951 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:17,114 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/Details.js
+2026-01-29 18:30:17,415 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 89ms
+2026-01-29 18:30:17,925 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/productDetails/Details.js, Duration: 315ms
+2026-01-29 18:30:18,079 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/productDetails/Details.js
+2026-01-29 18:30:18,243 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/Details.js
+2026-01-29 18:30:18,456 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:18,628 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:18,937 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:19,093 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:19,275 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/ProductDetailsSectionTwo.js
+2026-01-29 18:30:19,569 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 84ms
+2026-01-29 18:30:20,065 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/productDetails/ProductDetailsSectionTwo.js, Duration: 300ms
+2026-01-29 18:30:20,246 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/productDetails/ProductDetailsSectionTwo.js
+2026-01-29 18:30:20,427 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/ProductDetailsSectionTwo.js
+2026-01-29 18:30:20,581 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:20,754 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:21,017 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:21,205 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:21,356 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/ReviewForm.js
+2026-01-29 18:30:21,590 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 82ms
+2026-01-29 18:30:22,002 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/productDetails/ReviewForm.js, Duration: 234ms
+2026-01-29 18:30:22,196 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/productDetails/ReviewForm.js
+2026-01-29 18:30:22,346 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/ReviewForm.js
+2026-01-29 18:30:22,525 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:22,718 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:22,956 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:23,114 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:23,261 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/categories/index.js
+2026-01-29 18:30:23,514 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 86ms
+2026-01-29 18:30:23,922 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/categories/index.js, Duration: 218ms
+2026-01-29 18:30:24,128 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/categories/index.js
+2026-01-29 18:30:24,326 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/categories/index.js
+2026-01-29 18:30:24,480 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:24,638 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:24,920 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:25,079 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:25,266 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/partials/style.css
+2026-01-29 18:30:25,539 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2026-01-29 18:30:25,997 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/partials/style.css, Duration: 248ms
+2026-01-29 18:30:26,216 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/partials/style.css
+2026-01-29 18:30:26,386 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/partials/style.css
+2026-01-29 18:30:26,556 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:26,716 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:26,969 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:27,124 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:27,315 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/models/categories.js
+2026-01-29 18:30:27,543 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 91ms
+2026-01-29 18:30:28,036 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: server/models/categories.js, Duration: 285ms
+2026-01-29 18:30:28,198 - Knowledge - INFO - persist search terms embedding for server/models/categories.js
+2026-01-29 18:30:28,351 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/models/categories.js
+2026-01-29 18:30:28,518 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:28,684 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:28,924 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:29,128 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:29,282 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/package.json
+2026-01-29 18:30:29,578 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2026-01-29 18:30:29,959 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/package.json, Duration: 228ms
+2026-01-29 18:30:30,131 - Knowledge - INFO - persist search terms embedding for client/package.json
+2026-01-29 18:30:30,333 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/package.json
+2026-01-29 18:30:30,526 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:30,678 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:30,904 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:31,093 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:31,242 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/index.js
+2026-01-29 18:30:31,555 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 86ms
+2026-01-29 18:30:31,996 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/index.js, Duration: 276ms
+2026-01-29 18:30:32,146 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/index.js
+2026-01-29 18:30:32,325 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/index.js
+2026-01-29 18:30:32,516 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:32,673 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:32,911 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:33,056 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:33,255 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/products/ProductContext.js
+2026-01-29 18:30:33,511 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 90ms
+2026-01-29 18:30:33,893 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/products/ProductContext.js, Duration: 226ms
+2026-01-29 18:30:34,119 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/products/ProductContext.js
+2026-01-29 18:30:34,273 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/products/ProductContext.js
+2026-01-29 18:30:34,487 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:34,645 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:34,926 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:35,066 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:35,302 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/controller/users.js
+2026-01-29 18:30:35,554 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2026-01-29 18:30:35,907 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: server/controller/users.js, Duration: 177ms
+2026-01-29 18:30:36,082 - Knowledge - INFO - persist search terms embedding for server/controller/users.js
+2026-01-29 18:30:36,248 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/controller/users.js
+2026-01-29 18:30:36,446 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:36,632 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:36,895 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:37,083 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:37,261 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/routes/products.js
+2026-01-29 18:30:37,505 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 90ms
+2026-01-29 18:30:37,926 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: server/routes/products.js, Duration: 228ms
+2026-01-29 18:30:38,124 - Knowledge - INFO - persist search terms embedding for server/routes/products.js
+2026-01-29 18:30:38,273 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/routes/products.js
+2026-01-29 18:30:38,438 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:38,612 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:38,832 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:39,035 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:39,240 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/categories/AddCategoryModal.js
+2026-01-29 18:30:39,513 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2026-01-29 18:30:39,904 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/categories/AddCategoryModal.js, Duration: 218ms
+2026-01-29 18:30:40,069 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/categories/AddCategoryModal.js
+2026-01-29 18:30:40,246 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/categories/AddCategoryModal.js
+2026-01-29 18:30:40,406 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:40,555 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:40,801 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:40,955 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:41,157 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/products/ProductMenu.js
+2026-01-29 18:30:41,452 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 99ms
+2026-01-29 18:30:41,821 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/products/ProductMenu.js, Duration: 215ms
+2026-01-29 18:30:42,006 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/products/ProductMenu.js
+2026-01-29 18:30:42,165 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/products/ProductMenu.js
+2026-01-29 18:30:42,327 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:42,487 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:42,770 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:42,961 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:43,183 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/categories/FetchApi.js
+2026-01-29 18:30:43,461 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 85ms
+2026-01-29 18:30:43,860 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/categories/FetchApi.js, Duration: 197ms
+2026-01-29 18:30:44,009 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/categories/FetchApi.js
+2026-01-29 18:30:44,186 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/categories/FetchApi.js
+2026-01-29 18:30:44,380 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:44,563 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:44,824 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:45,025 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:45,217 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/controller/auth.js
+2026-01-29 18:30:45,453 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 85ms
+2026-01-29 18:30:45,848 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: server/controller/auth.js, Duration: 247ms
+2026-01-29 18:30:46,056 - Knowledge - INFO - persist search terms embedding for server/controller/auth.js
+2026-01-29 18:30:46,260 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/controller/auth.js
+2026-01-29 18:30:46,464 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:46,657 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:46,905 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:47,059 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:47,227 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/models/users.js
+2026-01-29 18:30:47,450 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 83ms
+2026-01-29 18:30:47,862 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: server/models/users.js, Duration: 209ms
+2026-01-29 18:30:48,065 - Knowledge - INFO - persist search terms embedding for server/models/users.js
+2026-01-29 18:30:48,220 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/models/users.js
+2026-01-29 18:30:48,411 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:48,552 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:48,795 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:48,957 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:49,138 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/layout/layoutContext.js
+2026-01-29 18:30:49,428 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2026-01-29 18:30:50,069 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/layout/layoutContext.js, Duration: 493ms
+2026-01-29 18:30:50,292 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/layout/layoutContext.js
+2026-01-29 18:30:50,436 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/layout/layoutContext.js
+2026-01-29 18:30:50,633 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:50,786 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:51,039 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:51,263 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:51,445 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/dashboardAdmin/TodaySell.js
+2026-01-29 18:30:51,745 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 90ms
+2026-01-29 18:30:52,110 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/dashboardAdmin/TodaySell.js, Duration: 210ms
+2026-01-29 18:30:52,286 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/dashboardAdmin/TodaySell.js
+2026-01-29 18:30:52,456 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/dashboardAdmin/TodaySell.js
+2026-01-29 18:30:52,633 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:52,799 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:53,083 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:53,278 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:53,456 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/Mixins.js
+2026-01-29 18:30:53,714 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 86ms
+2026-01-29 18:30:54,119 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/home/Mixins.js, Duration: 218ms
+2026-01-29 18:30:54,299 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/home/Mixins.js
+2026-01-29 18:30:54,454 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/Mixins.js
+2026-01-29 18:30:54,622 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:54,774 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:55,037 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:55,186 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:55,337 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/Sidebar.js
+2026-01-29 18:30:55,569 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 85ms
+2026-01-29 18:30:56,043 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/dashboardUser/Sidebar.js, Duration: 329ms
+2026-01-29 18:30:56,215 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/dashboardUser/Sidebar.js
+2026-01-29 18:30:56,452 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/Sidebar.js
+2026-01-29 18:30:56,637 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:56,825 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:57,071 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:57,258 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:57,409 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/routes/braintree.js
+2026-01-29 18:30:57,683 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 82ms
+2026-01-29 18:30:58,312 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: server/routes/braintree.js, Duration: 411ms
+2026-01-29 18:30:58,471 - Knowledge - INFO - persist search terms embedding for server/routes/braintree.js
+2026-01-29 18:30:58,670 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/routes/braintree.js
+2026-01-29 18:30:58,853 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:59,081 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:59,357 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:30:59,556 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:30:59,760 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/auth/LoginSignup.js
+2026-01-29 18:31:00,033 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 115ms
+2026-01-29 18:31:00,424 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/auth/LoginSignup.js, Duration: 220ms
+2026-01-29 18:31:00,626 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/auth/LoginSignup.js
+2026-01-29 18:31:00,805 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/auth/LoginSignup.js
+2026-01-29 18:31:00,969 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:01,166 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:01,399 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:01,564 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:01,797 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/index.js
+2026-01-29 18:31:02,041 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 90ms
+2026-01-29 18:31:02,430 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/home/index.js, Duration: 217ms
+2026-01-29 18:31:02,612 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/home/index.js
+2026-01-29 18:31:02,848 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/index.js
+2026-01-29 18:31:03,026 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:03,205 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:03,465 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:03,619 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:03,794 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/categories/AllCategories.js
+2026-01-29 18:31:04,081 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 83ms
+2026-01-29 18:31:04,487 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/categories/AllCategories.js, Duration: 261ms
+2026-01-29 18:31:04,682 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/categories/AllCategories.js
+2026-01-29 18:31:04,864 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/categories/AllCategories.js
+2026-01-29 18:31:05,033 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:05,253 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:05,486 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:05,692 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:05,909 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/App.js
+2026-01-29 18:31:06,191 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 98ms
+2026-01-29 18:31:06,619 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/App.js, Duration: 215ms
+2026-01-29 18:31:06,804 - Knowledge - INFO - persist search terms embedding for client/src/App.js
+2026-01-29 18:31:07,002 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/App.js
+2026-01-29 18:31:07,161 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:07,336 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:07,580 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:07,748 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:07,951 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/dashboardAdmin/FetchApi.js
+2026-01-29 18:31:08,193 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 91ms
+2026-01-29 18:31:08,670 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/dashboardAdmin/FetchApi.js, Duration: 285ms
+2026-01-29 18:31:08,864 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/dashboardAdmin/FetchApi.js
+2026-01-29 18:31:09,050 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/dashboardAdmin/FetchApi.js
+2026-01-29 18:31:09,262 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:09,495 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:09,721 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:09,870 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:10,038 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/routes/orders.js
+2026-01-29 18:31:10,320 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 95ms
+2026-01-29 18:31:10,790 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: server/routes/orders.js, Duration: 301ms
+2026-01-29 18:31:10,958 - Knowledge - INFO - persist search terms embedding for server/routes/orders.js
+2026-01-29 18:31:11,162 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/routes/orders.js
+2026-01-29 18:31:11,314 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:11,477 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:11,722 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:11,961 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:12,187 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/style.css
+2026-01-29 18:31:12,438 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 107ms
+2026-01-29 18:31:12,806 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/productDetails/style.css, Duration: 220ms
+2026-01-29 18:31:12,998 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/productDetails/style.css
+2026-01-29 18:31:13,205 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/style.css
+2026-01-29 18:31:13,410 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:13,567 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:13,868 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:14,065 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:14,216 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/partials/FetchApi.js
+2026-01-29 18:31:14,459 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 86ms
+2026-01-29 18:31:14,920 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/partials/FetchApi.js, Duration: 266ms
+2026-01-29 18:31:15,093 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/partials/FetchApi.js
+2026-01-29 18:31:15,274 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/partials/FetchApi.js
+2026-01-29 18:31:15,469 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:15,676 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:15,909 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:16,055 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:16,229 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/auth/AdminProtectedRoute.js
+2026-01-29 18:31:16,527 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 94ms
+2026-01-29 18:31:17,302 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/auth/AdminProtectedRoute.js, Duration: 529ms
+2026-01-29 18:31:17,481 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/auth/AdminProtectedRoute.js
+2026-01-29 18:31:17,689 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/auth/AdminProtectedRoute.js
+2026-01-29 18:31:17,847 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:17,992 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:18,259 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:18,447 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:18,623 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/SettingUser.js
+2026-01-29 18:31:18,927 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 101ms
+2026-01-29 18:31:19,380 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/dashboardUser/SettingUser.js, Duration: 269ms
+2026-01-29 18:31:19,550 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/dashboardUser/SettingUser.js
+2026-01-29 18:31:19,779 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/SettingUser.js
+2026-01-29 18:31:19,933 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:20,122 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:20,352 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:20,500 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:20,680 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/SingleProduct.js
+2026-01-29 18:31:20,970 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 96ms
+2026-01-29 18:31:21,409 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/home/SingleProduct.js, Duration: 284ms
+2026-01-29 18:31:21,602 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/home/SingleProduct.js
+2026-01-29 18:31:21,804 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/SingleProduct.js
+2026-01-29 18:31:21,963 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:22,113 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:22,382 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:22,594 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:22,775 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/Slider.js
+2026-01-29 18:31:23,050 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 92ms
+2026-01-29 18:31:23,562 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/home/Slider.js, Duration: 339ms
+2026-01-29 18:31:23,718 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/home/Slider.js
+2026-01-29 18:31:23,898 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/Slider.js
+2026-01-29 18:31:24,086 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:24,244 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:24,536 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:24,709 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:24,877 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/products/ProductTable.js
+2026-01-29 18:31:25,164 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 82ms
+2026-01-29 18:31:25,607 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/products/ProductTable.js, Duration: 264ms
+2026-01-29 18:31:25,837 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/products/ProductTable.js
+2026-01-29 18:31:25,977 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/products/ProductTable.js
+2026-01-29 18:31:26,165 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:26,315 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:26,566 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:26,736 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:26,887 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/partials/Mixins.js
+2026-01-29 18:31:27,135 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 90ms
+2026-01-29 18:31:27,618 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/partials/Mixins.js, Duration: 338ms
+2026-01-29 18:31:27,765 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/partials/Mixins.js
+2026-01-29 18:31:27,924 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/partials/Mixins.js
+2026-01-29 18:31:28,133 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:28,329 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:28,591 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:28,775 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:28,926 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/dashboardAdmin/index.js
+2026-01-29 18:31:29,190 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2026-01-29 18:31:29,826 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/dashboardAdmin/index.js, Duration: 404ms
+2026-01-29 18:31:30,054 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/dashboardAdmin/index.js
+2026-01-29 18:31:30,241 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/dashboardAdmin/index.js
+2026-01-29 18:31:30,417 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:30,574 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:30,812 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:31,010 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:31,223 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/categories/CategoryMenu.js
+2026-01-29 18:31:31,455 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 82ms
+2026-01-29 18:31:31,857 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/categories/CategoryMenu.js, Duration: 249ms
+2026-01-29 18:31:32,032 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/categories/CategoryMenu.js
+2026-01-29 18:31:32,184 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/categories/CategoryMenu.js
+2026-01-29 18:31:32,340 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:32,525 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:32,775 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:32,945 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:33,170 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/partials/index.js
+2026-01-29 18:31:33,436 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 87ms
+2026-01-29 18:31:33,836 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/partials/index.js, Duration: 231ms
+2026-01-29 18:31:34,027 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/partials/index.js
+2026-01-29 18:31:34,211 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/partials/index.js
+2026-01-29 18:31:34,390 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:34,549 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:34,827 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:35,025 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:35,240 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/categories/CategoryContext.js
+2026-01-29 18:31:35,465 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 83ms
+2026-01-29 18:31:35,984 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/categories/CategoryContext.js, Duration: 317ms
+2026-01-29 18:31:36,223 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/categories/CategoryContext.js
+2026-01-29 18:31:36,437 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/categories/CategoryContext.js
+2026-01-29 18:31:36,604 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:36,753 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:37,001 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:37,155 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:37,337 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/ProductCategory.js
+2026-01-29 18:31:37,630 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 83ms
+2026-01-29 18:31:38,064 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/home/ProductCategory.js, Duration: 238ms
+2026-01-29 18:31:38,214 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/home/ProductCategory.js
+2026-01-29 18:31:38,410 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/ProductCategory.js
+2026-01-29 18:31:38,572 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:38,737 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:39,033 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:39,237 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:39,421 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/layout/PageNotFound.js
+2026-01-29 18:31:39,672 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2026-01-29 18:31:40,080 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/layout/PageNotFound.js, Duration: 249ms
+2026-01-29 18:31:40,247 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/layout/PageNotFound.js
+2026-01-29 18:31:40,415 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/layout/PageNotFound.js
+2026-01-29 18:31:40,599 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:40,793 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:41,027 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:41,229 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:41,403 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/routes/customize.js
+2026-01-29 18:31:41,636 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 80ms
+2026-01-29 18:31:42,090 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: server/routes/customize.js, Duration: 248ms
+2026-01-29 18:31:42,258 - Knowledge - INFO - persist search terms embedding for server/routes/customize.js
+2026-01-29 18:31:42,430 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/routes/customize.js
+2026-01-29 18:31:42,632 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:42,792 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:43,041 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:43,221 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:43,381 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/auth/Signup.js
+2026-01-29 18:31:43,611 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 84ms
+2026-01-29 18:31:44,121 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/auth/Signup.js, Duration: 311ms
+2026-01-29 18:31:44,317 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/auth/Signup.js
+2026-01-29 18:31:44,497 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/auth/Signup.js
+2026-01-29 18:31:44,687 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:44,858 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:45,119 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:45,341 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:45,533 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/index.js
+2026-01-29 18:31:45,797 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 98ms
+2026-01-29 18:31:46,222 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/index.js, Duration: 217ms
+2026-01-29 18:31:46,451 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/index.js
+2026-01-29 18:31:46,679 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/index.js
+2026-01-29 18:31:46,850 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:47,018 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:47,237 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:47,428 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:47,622 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/README.md
+2026-01-29 18:31:47,909 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 93ms
+2026-01-29 18:31:48,326 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: README.md, Duration: 217ms
+2026-01-29 18:31:48,478 - Knowledge - INFO - persist search terms embedding for README.md
+2026-01-29 18:31:48,640 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/README.md
+2026-01-29 18:31:48,842 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:49,010 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:49,240 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:49,394 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:49,590 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/index.js
+2026-01-29 18:31:49,882 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 93ms
+2026-01-29 18:31:50,302 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/index.js, Duration: 234ms
+2026-01-29 18:31:50,501 - Knowledge - INFO - persist search terms embedding for client/src/components/index.js
+2026-01-29 18:31:50,690 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/index.js
+2026-01-29 18:31:50,854 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:51,022 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:51,272 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:51,433 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:51,628 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/order/FetchApi.js
+2026-01-29 18:31:51,913 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 94ms
+2026-01-29 18:31:52,340 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/order/FetchApi.js, Duration: 211ms
+2026-01-29 18:31:52,522 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/order/FetchApi.js
+2026-01-29 18:31:52,716 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/order/FetchApi.js
+2026-01-29 18:31:52,881 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:53,070 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:53,309 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:53,533 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:53,732 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/categories/EditCategoryModal.js
+2026-01-29 18:31:53,970 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 81ms
+2026-01-29 18:31:54,421 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/categories/EditCategoryModal.js, Duration: 240ms
+2026-01-29 18:31:54,576 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/categories/EditCategoryModal.js
+2026-01-29 18:31:54,737 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/categories/EditCategoryModal.js
+2026-01-29 18:31:54,921 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:55,131 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:55,382 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:55,568 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:55,730 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/orders/index.js
+2026-01-29 18:31:55,971 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 81ms
+2026-01-29 18:31:56,460 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/orders/index.js, Duration: 281ms
+2026-01-29 18:31:56,640 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/orders/index.js
+2026-01-29 18:31:56,855 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/orders/index.js
+2026-01-29 18:31:57,047 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:57,218 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:57,458 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:57,654 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:57,806 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/controller/orders.js
+2026-01-29 18:31:58,097 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 93ms
+2026-01-29 18:31:58,510 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: server/controller/orders.js, Duration: 260ms
+2026-01-29 18:31:58,677 - Knowledge - INFO - persist search terms embedding for server/controller/orders.js
+2026-01-29 18:31:58,875 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/controller/orders.js
+2026-01-29 18:31:59,059 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:59,256 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:59,475 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:31:59,665 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:31:59,842 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/order/CheckoutProducts.js
+2026-01-29 18:32:00,118 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 89ms
+2026-01-29 18:32:00,533 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/order/CheckoutProducts.js, Duration: 214ms
+2026-01-29 18:32:00,695 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/order/CheckoutProducts.js
+2026-01-29 18:32:00,867 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/order/CheckoutProducts.js
+2026-01-29 18:32:01,057 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:01,253 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:01,502 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:01,667 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:01,834 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/auth/fetchApi.js
+2026-01-29 18:32:02,104 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 94ms
+2026-01-29 18:32:02,628 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/auth/fetchApi.js, Duration: 322ms
+2026-01-29 18:32:02,784 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/auth/fetchApi.js
+2026-01-29 18:32:02,982 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/auth/fetchApi.js
+2026-01-29 18:32:03,144 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:03,308 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:03,540 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:03,735 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:03,942 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/models/orders.js
+2026-01-29 18:32:04,186 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 93ms
+2026-01-29 18:32:04,581 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: server/models/orders.js, Duration: 223ms
+2026-01-29 18:32:04,772 - Knowledge - INFO - persist search terms embedding for server/models/orders.js
+2026-01-29 18:32:04,952 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/models/orders.js
+2026-01-29 18:32:05,127 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:05,301 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:05,523 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:05,683 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:05,894 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/orders/AllOrders.js
+2026-01-29 18:32:06,163 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2026-01-29 18:32:06,579 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/orders/AllOrders.js, Duration: 214ms
+2026-01-29 18:32:06,745 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/orders/AllOrders.js
+2026-01-29 18:32:06,899 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/orders/AllOrders.js
+2026-01-29 18:32:07,117 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:07,282 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:07,590 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:07,758 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:07,943 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/style.css
+2026-01-29 18:32:08,232 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 90ms
+2026-01-29 18:32:08,713 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/home/style.css, Duration: 317ms
+2026-01-29 18:32:08,909 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/home/style.css
+2026-01-29 18:32:09,087 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/style.css
+2026-01-29 18:32:09,276 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:09,436 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:09,683 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:09,877 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:10,034 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/layout/index.js
+2026-01-29 18:32:10,287 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 101ms
+2026-01-29 18:32:10,686 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/layout/index.js, Duration: 193ms
+2026-01-29 18:32:10,866 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/layout/index.js
+2026-01-29 18:32:11,033 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/layout/index.js
+2026-01-29 18:32:11,222 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:11,411 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:11,652 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:11,809 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:11,965 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/Submenu.js
+2026-01-29 18:32:12,255 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 86ms
+2026-01-29 18:32:12,651 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/productDetails/Submenu.js, Duration: 216ms
+2026-01-29 18:32:12,871 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/productDetails/Submenu.js
+2026-01-29 18:32:13,034 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/Submenu.js
+2026-01-29 18:32:13,208 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:13,390 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:13,655 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:13,838 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:14,037 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/partials/AdminNavber.js
+2026-01-29 18:32:14,267 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 87ms
+2026-01-29 18:32:14,696 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/partials/AdminNavber.js, Duration: 248ms
+2026-01-29 18:32:14,885 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/partials/AdminNavber.js
+2026-01-29 18:32:15,038 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/partials/AdminNavber.js
+2026-01-29 18:32:15,231 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:15,404 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:15,647 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:15,837 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:16,015 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/serviceWorker.js
+2026-01-29 18:32:16,270 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 86ms
+2026-01-29 18:32:16,686 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/serviceWorker.js, Duration: 217ms
+2026-01-29 18:32:16,852 - Knowledge - INFO - persist search terms embedding for client/src/serviceWorker.js
+2026-01-29 18:32:17,030 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/serviceWorker.js
+2026-01-29 18:32:17,236 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:17,415 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:17,648 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:17,808 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:17,974 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/partials/Navber.js
+2026-01-29 18:32:18,259 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 84ms
+2026-01-29 18:32:18,753 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/partials/Navber.js, Duration: 264ms
+2026-01-29 18:32:18,920 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/partials/Navber.js
+2026-01-29 18:32:19,110 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/partials/Navber.js
+2026-01-29 18:32:19,279 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:19,477 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:19,733 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:19,942 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:20,191 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/dashboardAdmin/Action.js
+2026-01-29 18:32:20,430 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2026-01-29 18:32:20,810 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/dashboardAdmin/Action.js, Duration: 218ms
+2026-01-29 18:32:21,051 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/dashboardAdmin/Action.js
+2026-01-29 18:32:21,223 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/dashboardAdmin/Action.js
+2026-01-29 18:32:21,391 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:21,607 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:21,909 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:22,075 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:22,253 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/README.md
+2026-01-29 18:32:22,498 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2026-01-29 18:32:22,930 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/README.md, Duration: 266ms
+2026-01-29 18:32:23,119 - Knowledge - INFO - persist search terms embedding for client/README.md
+2026-01-29 18:32:23,283 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/README.md
+2026-01-29 18:32:23,451 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:23,615 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:23,847 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:24,027 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:24,202 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/partials/Action.js
+2026-01-29 18:32:24,505 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 94ms
+2026-01-29 18:32:25,035 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/partials/Action.js, Duration: 285ms
+2026-01-29 18:32:25,184 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/partials/Action.js
+2026-01-29 18:32:25,344 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/partials/Action.js
+2026-01-29 18:32:25,522 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:25,676 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:25,923 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:26,128 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:26,326 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/orders/UpdateOrderModal.js
+2026-01-29 18:32:26,604 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 80ms
+2026-01-29 18:32:27,064 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/orders/UpdateOrderModal.js, Duration: 296ms
+2026-01-29 18:32:27,254 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/orders/UpdateOrderModal.js
+2026-01-29 18:32:27,420 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/orders/UpdateOrderModal.js
+2026-01-29 18:32:27,658 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:27,825 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:28,113 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:28,305 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:28,469 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/models/customize.js
+2026-01-29 18:32:28,769 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 82ms
+2026-01-29 18:32:29,234 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: server/models/customize.js, Duration: 305ms
+2026-01-29 18:32:29,386 - Knowledge - INFO - persist search terms embedding for server/models/customize.js
+2026-01-29 18:32:29,562 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/models/customize.js
+2026-01-29 18:32:29,751 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:29,911 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:30,162 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:30,335 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:30,496 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/order/Action.js
+2026-01-29 18:32:30,770 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 86ms
+2026-01-29 18:32:31,133 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/shop/order/Action.js, Duration: 198ms
+2026-01-29 18:32:31,304 - Knowledge - INFO - persist search terms embedding for client/src/components/shop/order/Action.js
+2026-01-29 18:32:31,506 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/order/Action.js
+2026-01-29 18:32:31,707 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:31,905 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:32,140 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:32,284 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:32,460 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/products/AddProductModal.js
+2026-01-29 18:32:32,702 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 85ms
+2026-01-29 18:32:35,337 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/products/AddProductModal.js, Duration: 2465ms
+2026-01-29 18:32:35,484 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/products/AddProductModal.js
+2026-01-29 18:32:35,652 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/products/AddProductModal.js
+2026-01-29 18:32:35,817 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:35,979 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:36,220 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:36,390 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:36,591 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/public/index.html
+2026-01-29 18:32:36,841 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 91ms
+2026-01-29 18:32:37,296 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/public/index.html, Duration: 253ms
+2026-01-29 18:32:37,523 - Knowledge - INFO - persist search terms embedding for client/public/index.html
+2026-01-29 18:32:37,756 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/public/index.html
+2026-01-29 18:32:37,922 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:38,091 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:38,388 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:38,556 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:38,737 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/orders/SearchFilter.js
+2026-01-29 18:32:38,998 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 89ms
+2026-01-29 18:32:39,327 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/orders/SearchFilter.js, Duration: 173ms
+2026-01-29 18:32:39,532 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/orders/SearchFilter.js
+2026-01-29 18:32:39,686 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/orders/SearchFilter.js
+2026-01-29 18:32:39,885 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:40,073 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:40,359 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:40,507 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:40,675 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/controller/customize.js
+2026-01-29 18:32:40,921 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 90ms
+2026-01-29 18:32:41,323 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: server/controller/customize.js, Duration: 219ms
+2026-01-29 18:32:41,507 - Knowledge - INFO - persist search terms embedding for server/controller/customize.js
+2026-01-29 18:32:41,700 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/controller/customize.js
+2026-01-29 18:32:41,886 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:42,090 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:42,344 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:42,502 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:42,699 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/partials/AdminSidebar.js
+2026-01-29 18:32:42,958 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 87ms
+2026-01-29 18:32:43,370 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/partials/AdminSidebar.js, Duration: 226ms
+2026-01-29 18:32:43,540 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/partials/AdminSidebar.js
+2026-01-29 18:32:43,705 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/partials/AdminSidebar.js
+2026-01-29 18:32:43,870 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:44,029 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:44,260 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:44,439 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:44,632 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/dashboardAdmin/DashboardCard.js
+2026-01-29 18:32:44,888 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 84ms
+2026-01-29 18:32:45,335 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/dashboardAdmin/DashboardCard.js, Duration: 243ms
+2026-01-29 18:32:45,510 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/dashboardAdmin/DashboardCard.js
+2026-01-29 18:32:45,716 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/dashboardAdmin/DashboardCard.js
+2026-01-29 18:32:45,908 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:46,114 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:46,366 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:46,518 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:46,701 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/orders/FetchApi.js
+2026-01-29 18:32:46,960 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 86ms
+2026-01-29 18:32:47,402 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/orders/FetchApi.js, Duration: 230ms
+2026-01-29 18:32:47,583 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/orders/FetchApi.js
+2026-01-29 18:32:47,787 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/orders/FetchApi.js
+2026-01-29 18:32:47,961 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:48,179 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:48,432 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-01-29 18:32:48,625 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff3afbfb810>
+2026-01-29 18:32:48,816 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/orders/AddCategoryModal.js
+2026-01-29 18:32:49,080 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 91ms
+2026-01-29 18:32:49,518 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/admin/orders/AddCategoryModal.js, Duration: 244ms
+2026-01-29 18:32:49,743 - Knowledge - INFO - persist search terms embedding for client/src/components/admin/orders/AddCategoryModal.js
+2026-01-29 18:32:49,922 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/orders/AddCategoryModal.js
+2026-01-29 18:32:50,132 - Knowledge - INFO - Loaded 128 files from persisted knowledge
+2026-01-29 18:32:50,283 - Knowledge - INFO - load persisted knowledge: end
+2026-01-29 18:32:50,451 - Knowledge - INFO - Redis support added with prefix knowledge:b13420e:
+2026-01-29 18:32:50,725 - Knowledge - INFO - Starting knowledge initialization for ID: r2Ktdu-b13420e
+2026-01-29 18:32:50,915 - Knowledge - INFO - 🔍 Checking Redis for build_id: b13420e
+2026-01-29 18:32:51,107 - Knowledge - INFO - 🔍 Full session ID: r2Ktdu-b13420e
+2026-01-29 18:32:51,268 - Knowledge - INFO - 🔍 Redis prefix will be: knowledge:b13420e:
+2026-01-29 18:32:51,439 - Knowledge - INFO - 🔍 Using attached load_from_redis() method
+2026-01-29 18:32:51,630 - Knowledge - INFO - 🔍 Attempting to load knowledge from Redis...
+2026-01-29 18:32:51,827 - Knowledge - INFO - 🔍 Using derived instance_id for Redis lookup: b13420e
+2026-01-29 18:32:52,030 - Knowledge - INFO - ✅ Redis cache found! Loading knowledge...
+2026-01-29 18:32:52,221 - Knowledge - INFO - ✅ Successfully loaded from Redis: 128 files
+2026-01-29 18:32:52,478 - Knowledge - INFO - ✅ Redis load complete: 128 files in 1.04s
+2026-01-29 18:32:52,660 - Knowledge - INFO - ⚡ Total Redis path: 1.04s (vs ~300s from disk)
+2026-01-29 18:32:52,826 - Knowledge - INFO - Saving knowledge to Redis...
+2026-01-29 18:32:53,113 - Knowledge - INFO - Knowledge saved to Redis successfully
