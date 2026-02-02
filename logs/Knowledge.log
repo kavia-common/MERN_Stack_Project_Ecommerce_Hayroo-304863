@@ -1876,3 +1876,411 @@
 2026-01-29 18:32:52,660 - Knowledge - INFO - ⚡ Total Redis path: 1.04s (vs ~300s from disk)
 2026-01-29 18:32:52,826 - Knowledge - INFO - Saving knowledge to Redis...
 2026-01-29 18:32:53,113 - Knowledge - INFO - Knowledge saved to Redis successfully
+2026-02-02 15:43:40,016 - Knowledge - INFO - Created shared MongoDB connection pool
+2026-02-02 15:43:40,319 - Knowledge - INFO - Starting Knowledge Graph processing with 20 threads
+2026-02-02 15:43:40,479 - Knowledge - INFO - Initial configuration: chunk_size=65536, max_cache_size=500
+2026-02-02 15:43:40,649 - Knowledge - INFO - Knowledge Graph concurrency configuration: workers=20, max_batch_size=10, max_concurrent_llm_calls=50
+2026-02-02 15:43:41,797 - Knowledge - INFO - 🔍 _load_persisted_knowledge called - checking for Redis optimization
+2026-02-02 15:43:41,953 - Knowledge - WARNING - ❌ load_from_redis method not found - Redis support not attached
+2026-02-02 15:43:42,130 - Knowledge - INFO - load persisted knowledge: begin
+2026-02-02 15:43:43,620 - Knowledge - INFO - Persisted knowledge files in /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/.knowledge have been renamed to use .json
+2026-02-02 15:43:43,807 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:43:43,970 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:43:44,165 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/controller/braintree.js
+2026-02-02 15:43:44,399 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:43:44,563 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:43:44,755 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/SearchFilter.js
+2026-02-02 15:43:44,942 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:43:45,288 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:43:45,492 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/ProductByCategory.js
+2026-02-02 15:43:45,692 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:43:45,854 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:43:46,098 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/dashboardAdmin/Customize.js
+2026-02-02 15:43:46,317 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:43:46,484 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:43:46,662 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/OrderSuccessMessage.js
+2026-02-02 15:43:46,873 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:43:47,064 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:43:47,248 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/config/uploadFolderCreateScript.js
+2026-02-02 15:43:47,463 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:43:47,679 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:43:47,883 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/middleware/auth.js
+2026-02-02 15:43:48,080 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:43:48,259 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:43:48,457 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/DashboardUserContext.js
+2026-02-02 15:43:48,631 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:43:48,790 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:43:48,990 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/ProductDetailsSection.js
+2026-02-02 15:43:49,161 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:43:49,362 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:43:49,583 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/ProductDetailsContext.js
+2026-02-02 15:43:49,798 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:43:49,995 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:43:50,180 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/FetchApi.js
+2026-02-02 15:43:50,392 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:43:50,626 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:43:50,841 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/products/index.js
+2026-02-02 15:43:51,048 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:43:51,231 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:43:51,407 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/routes/categories.js
+2026-02-02 15:43:51,615 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:43:51,802 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:43:52,013 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/auth/ProtectedRoute.js
+2026-02-02 15:43:52,213 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:43:52,398 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:43:52,596 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/controller/products.js
+2026-02-02 15:43:52,800 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:43:52,962 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:43:53,159 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/auth/Login.js
+2026-02-02 15:43:53,377 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:43:53,540 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:43:53,732 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/models/products.js
+2026-02-02 15:43:53,933 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:43:54,139 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:43:54,336 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/index.js
+2026-02-02 15:43:54,547 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:43:54,727 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:43:54,903 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/wishlist/FetchApi.js
+2026-02-02 15:43:55,126 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:43:55,284 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:43:55,486 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/FetchApi.js
+2026-02-02 15:43:55,713 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:43:55,867 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:43:56,066 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/partials/AdminFooter.js
+2026-02-02 15:43:56,275 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:43:56,429 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:43:56,606 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/routes/users.js
+2026-02-02 15:43:56,801 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:43:56,981 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:43:57,151 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/products/EditProductModal.js
+2026-02-02 15:43:57,308 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:43:57,518 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:43:57,719 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/products/FetchApi.js
+2026-02-02 15:43:57,889 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:43:58,054 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:43:58,256 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/partials/CartModal.js
+2026-02-02 15:43:58,459 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:43:58,653 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:43:58,821 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/UserProfile.js
+2026-02-02 15:43:58,989 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:43:59,177 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:43:59,356 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/HomeContext.js
+2026-02-02 15:43:59,518 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:43:59,696 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:43:59,891 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/routes/auth.js
+2026-02-02 15:44:00,052 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:00,261 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:00,444 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/public/style.css
+2026-02-02 15:44:00,609 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:00,763 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:00,944 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/wishlist/index.js
+2026-02-02 15:44:01,165 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:01,345 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:01,521 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/index.js
+2026-02-02 15:44:01,719 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:01,911 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:02,165 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/config/db.js
+2026-02-02 15:44:02,372 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:02,549 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:02,778 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/orders/OrderContext.js
+2026-02-02 15:44:02,991 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:03,207 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:03,413 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/partials/Footer.js
+2026-02-02 15:44:03,601 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:03,810 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:03,995 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/order/CheckoutPage.js
+2026-02-02 15:44:04,215 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:04,459 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:04,667 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/orders/OrderMenu.js
+2026-02-02 15:44:04,871 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:05,043 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:05,209 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/config/function.js
+2026-02-02 15:44:05,453 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:05,649 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:05,812 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/Mixins.js
+2026-02-02 15:44:05,981 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:06,155 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:06,366 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/index.js
+2026-02-02 15:44:06,557 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:06,748 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:06,930 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/orders/Actions.js
+2026-02-02 15:44:07,131 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:07,338 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:07,546 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/Layout.js
+2026-02-02 15:44:07,729 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:07,927 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:08,135 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/auth/CartProtectedRoute.js
+2026-02-02 15:44:08,302 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:08,511 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:08,680 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/UserOrders.js
+2026-02-02 15:44:08,862 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:09,039 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:09,231 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/Action.js
+2026-02-02 15:44:09,403 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:09,565 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:09,770 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/config/keys.js
+2026-02-02 15:44:09,938 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:10,138 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:10,321 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/Action.js
+2026-02-02 15:44:10,509 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:10,698 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:10,896 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/package.json
+2026-02-02 15:44:11,141 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:11,346 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:11,539 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/wishlist/SingleWishProduct.js
+2026-02-02 15:44:11,761 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:11,947 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:12,135 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/layout/index.js
+2026-02-02 15:44:12,324 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:12,491 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:12,713 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/app.js
+2026-02-02 15:44:12,887 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:13,079 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:13,287 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/ProductCategoryDropdown.js
+2026-02-02 15:44:13,480 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:13,668 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:13,840 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/AllReviews.js
+2026-02-02 15:44:14,044 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:14,251 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:14,430 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/dashboardAdmin/DashboardContext.js
+2026-02-02 15:44:14,608 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:14,822 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:15,015 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/controller/categories.js
+2026-02-02 15:44:15,199 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:15,385 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:15,618 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/Details.js
+2026-02-02 15:44:15,820 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:15,998 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:16,192 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/ProductDetailsSectionTwo.js
+2026-02-02 15:44:16,387 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:16,549 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:16,715 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/ReviewForm.js
+2026-02-02 15:44:16,883 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:17,048 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:17,232 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/categories/index.js
+2026-02-02 15:44:17,409 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:17,583 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:17,788 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/partials/style.css
+2026-02-02 15:44:17,983 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:18,178 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:18,382 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/models/categories.js
+2026-02-02 15:44:18,569 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:18,761 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:18,987 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/package.json
+2026-02-02 15:44:19,175 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:19,377 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:19,563 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/index.js
+2026-02-02 15:44:19,732 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:19,883 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:20,084 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/products/ProductContext.js
+2026-02-02 15:44:20,283 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:20,464 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:20,665 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/controller/users.js
+2026-02-02 15:44:20,865 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:21,067 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:21,236 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/routes/products.js
+2026-02-02 15:44:21,468 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:21,639 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:21,827 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/categories/AddCategoryModal.js
+2026-02-02 15:44:22,033 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:22,207 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:22,403 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/products/ProductMenu.js
+2026-02-02 15:44:22,610 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:22,795 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:23,000 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/categories/FetchApi.js
+2026-02-02 15:44:23,169 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:23,363 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:23,568 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/controller/auth.js
+2026-02-02 15:44:23,775 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:23,949 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:24,151 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/models/users.js
+2026-02-02 15:44:24,402 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:24,593 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:24,779 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/layout/layoutContext.js
+2026-02-02 15:44:24,985 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:25,162 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:25,376 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/dashboardAdmin/TodaySell.js
+2026-02-02 15:44:25,628 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:25,802 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:26,017 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/Mixins.js
+2026-02-02 15:44:26,186 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:26,376 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:26,545 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/Sidebar.js
+2026-02-02 15:44:26,738 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:26,935 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:27,104 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/routes/braintree.js
+2026-02-02 15:44:27,289 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:27,450 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:27,625 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/auth/LoginSignup.js
+2026-02-02 15:44:27,840 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:28,015 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:28,219 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/index.js
+2026-02-02 15:44:28,444 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:28,638 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:28,796 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/categories/AllCategories.js
+2026-02-02 15:44:28,981 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:29,141 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:29,339 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/App.js
+2026-02-02 15:44:29,525 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:29,743 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:29,935 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/dashboardAdmin/FetchApi.js
+2026-02-02 15:44:30,165 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:30,355 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:30,560 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/routes/orders.js
+2026-02-02 15:44:30,740 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:30,900 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:31,121 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/style.css
+2026-02-02 15:44:31,303 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:31,480 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:31,685 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/partials/FetchApi.js
+2026-02-02 15:44:31,899 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:32,073 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:32,256 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/auth/AdminProtectedRoute.js
+2026-02-02 15:44:32,479 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:32,645 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:32,827 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/dashboardUser/SettingUser.js
+2026-02-02 15:44:33,058 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:33,222 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:33,415 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/SingleProduct.js
+2026-02-02 15:44:33,633 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:33,792 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:33,956 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/Slider.js
+2026-02-02 15:44:34,127 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:34,335 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:34,538 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/products/ProductTable.js
+2026-02-02 15:44:34,724 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:34,945 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:35,149 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/partials/Mixins.js
+2026-02-02 15:44:35,320 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:35,531 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:35,708 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/dashboardAdmin/index.js
+2026-02-02 15:44:35,885 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:36,084 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:36,287 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/categories/CategoryMenu.js
+2026-02-02 15:44:36,494 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:36,686 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:36,882 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/partials/index.js
+2026-02-02 15:44:37,089 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:37,332 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:37,550 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/categories/CategoryContext.js
+2026-02-02 15:44:37,747 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:37,899 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:38,080 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/ProductCategory.js
+2026-02-02 15:44:38,267 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:38,495 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:38,679 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/layout/PageNotFound.js
+2026-02-02 15:44:38,854 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:39,038 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:39,206 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/routes/customize.js
+2026-02-02 15:44:39,380 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:39,581 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:39,758 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/auth/Signup.js
+2026-02-02 15:44:39,940 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:40,107 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:40,306 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/index.js
+2026-02-02 15:44:40,511 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:40,672 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:40,867 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/README.md
+2026-02-02 15:44:41,052 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:41,248 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:41,475 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/index.js
+2026-02-02 15:44:41,723 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:41,915 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:42,134 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/order/FetchApi.js
+2026-02-02 15:44:42,310 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:42,490 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:42,655 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/categories/EditCategoryModal.js
+2026-02-02 15:44:42,828 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:42,989 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:43,193 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/orders/index.js
+2026-02-02 15:44:43,368 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:43,585 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:43,762 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/controller/orders.js
+2026-02-02 15:44:43,988 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:44,173 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:44,355 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/order/CheckoutProducts.js
+2026-02-02 15:44:44,566 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:44,770 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:44,967 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/auth/fetchApi.js
+2026-02-02 15:44:45,154 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:45,318 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:45,503 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/models/orders.js
+2026-02-02 15:44:45,703 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:45,884 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:46,049 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/orders/AllOrders.js
+2026-02-02 15:44:46,273 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:46,467 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:46,669 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/home/style.css
+2026-02-02 15:44:46,859 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:47,025 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:47,231 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/layout/index.js
+2026-02-02 15:44:47,448 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:47,639 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:47,842 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/productDetails/Submenu.js
+2026-02-02 15:44:48,059 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:48,258 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:48,465 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/partials/AdminNavber.js
+2026-02-02 15:44:48,621 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:48,798 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:48,974 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/serviceWorker.js
+2026-02-02 15:44:49,169 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:49,373 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:49,572 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/partials/Navber.js
+2026-02-02 15:44:49,736 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:49,960 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:50,128 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/dashboardAdmin/Action.js
+2026-02-02 15:44:50,333 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:50,498 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:50,667 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/README.md
+2026-02-02 15:44:50,863 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:51,013 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:51,174 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/partials/Action.js
+2026-02-02 15:44:51,343 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:51,560 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:51,724 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/orders/UpdateOrderModal.js
+2026-02-02 15:44:51,949 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:52,159 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:52,330 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/models/customize.js
+2026-02-02 15:44:52,543 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:52,739 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:52,936 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/shop/order/Action.js
+2026-02-02 15:44:53,205 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:53,380 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:53,555 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/products/AddProductModal.js
+2026-02-02 15:44:53,735 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:53,922 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:54,199 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/public/index.html
+2026-02-02 15:44:54,395 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:54,570 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:54,762 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/orders/SearchFilter.js
+2026-02-02 15:44:54,991 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:55,177 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:55,351 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/server/controller/customize.js
+2026-02-02 15:44:55,560 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:55,742 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:55,906 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/partials/AdminSidebar.js
+2026-02-02 15:44:56,144 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:56,382 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:56,554 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/dashboardAdmin/DashboardCard.js
+2026-02-02 15:44:56,745 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:56,973 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:57,135 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/orders/FetchApi.js
+2026-02-02 15:44:57,329 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/MERN_Stack_Project_Ecommerce_Hayroo-304863.git:kavia-master
+2026-02-02 15:44:57,537 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe54a4f47d0>
+2026-02-02 15:44:57,722 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b13420e/MERN_Stack_Project_Ecommerce_Hayroo-304863/client/src/components/admin/orders/AddCategoryModal.js
+2026-02-02 15:44:57,879 - Knowledge - INFO - Loaded 128 files from persisted knowledge
+2026-02-02 15:44:58,110 - Knowledge - INFO - load persisted knowledge: end
+2026-02-02 15:44:58,338 - Knowledge - INFO - Redis support added with prefix knowledge:b13420e:
+2026-02-02 15:44:58,653 - Knowledge - INFO - Starting knowledge initialization for ID: KhuzT9-b13420e
+2026-02-02 15:44:58,819 - Knowledge - INFO - 🔍 Checking Redis for build_id: b13420e
+2026-02-02 15:44:59,010 - Knowledge - INFO - 🔍 Full session ID: KhuzT9-b13420e
+2026-02-02 15:44:59,177 - Knowledge - INFO - 🔍 Redis prefix will be: knowledge:b13420e:
+2026-02-02 15:44:59,353 - Knowledge - INFO - 🔍 Using attached load_from_redis() method
+2026-02-02 15:44:59,529 - Knowledge - INFO - 🔍 Attempting to load knowledge from Redis...
+2026-02-02 15:44:59,720 - Knowledge - INFO - 🔍 Using derived instance_id for Redis lookup: b13420e
+2026-02-02 15:44:59,929 - Knowledge - INFO - ✅ Redis cache found! Loading knowledge...
+2026-02-02 15:45:00,144 - Knowledge - INFO - ✅ Successfully loaded from Redis: 128 files
+2026-02-02 15:45:00,366 - Knowledge - INFO - ✅ Redis load complete: 128 files in 1.01s
+2026-02-02 15:45:00,578 - Knowledge - INFO - ⚡ Total Redis path: 1.01s (vs ~300s from disk)
+2026-02-02 15:45:00,773 - Knowledge - INFO - Saving knowledge to Redis...
+2026-02-02 15:45:01,066 - Knowledge - INFO - Knowledge saved to Redis successfully
